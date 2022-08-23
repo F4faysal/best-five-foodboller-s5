@@ -44,7 +44,7 @@
         </section>
     </header>
 
-    <main>
+<main>
 <!-- middler engine  -->
 <section class="mx-auto md:container my-36">
 <!-- players  -->
@@ -52,9 +52,9 @@
     <div class=" lg:w-3/4">
         <div class="">
             <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-9 m-2">
-                <div class="card w-full bg-base-100 shadow-xl rounded-none">
+                <div class="card w-full bg-base-100 shadow-xl">
                     <figure class="">
-                        <img src="img/messi.jpg" alt="Lionel-Messi" class=" h-80" />
+                        <img src="img/Lionel Messi.png" alt="Lionel-Messi" class="w-full" />
                     </figure>
                     <div class="card-body items-center text-center">
                         <h2 class="card-title text-3xl">Lionel Messi</h2>
@@ -67,11 +67,148 @@
                         </div>
                     </div>
                 </div>
+                <div class="card w-full bg-base-100 shadow-xl">
+                    <figure class="">
+                        <img src="img/rolando.webp" alt="Cristiano-Ronaldo" class="w-full" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title text-3xl">Cristiano Ronaldo</h2>
+                        <p class=" text-xl"><span>387</span> <span>Goal</span> <span class="text-5xl">
+                                .</span> <span>289</span> <span>Assist</span>
+                        </p>
+                        <div class="card-actions">
+                            <button class="btn btn-primary px-24  text-xl"
+                                onclick=" selectP(this)">Seclect</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card w-full bg-base-100 shadow-xl">
+                    <figure class="">
+                        <img src="img/Neymar Jr.png" alt="Neymar-Jr" class=" h-80" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title text-3xl">Neymar Jr</h2>
+                        <p class=" text-xl"><span>287</span> <span>Goal</span> <span class="text-5xl">
+                                .</span> <span>275</span> <span>Assist</span>
+                        </p>
+                        <div class="card-actions">
+                            <button class="btn btn-primary px-24  text-xl"
+                                onclick=" selectP(this)">Seclect</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card w-full bg-base-100 shadow-xl">
+                    <figure class="">
+                        <img src="img/Kylian Mbappe.png" alt="Kylian-Mbappe" class=" h-80" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title text-3xl">Kylian Mbappe</h2>
+                        <p class=" text-xl"><span>139</span> <span>Goal</span> <span class="text-5xl">
+                                .</span> <span>155</span> <span>Assist</span>
+                        </p>
+                        <div class="card-actions">
+                            <button class="btn btn-primary px-24  text-xl"
+                                onclick=" selectP(this)">Seclect</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card w-full bg-base-100 shadow-xl">
+                    <figure class="">
+                        <img src="img/Vítor Machado.png" alt="mohammda-Salha" class=" h-80" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title text-3xl">mohammda Salha</h2>
+                        <p class=" text-xl"><span>310</span> <span>Goal</span> <span class="text-5xl">
+                                .</span> <span>351</span> <span>Assist</span>
+                        </p>
+                        <div class="card-actions">
+                            <button class="btn btn-primary px-24  text-xl"
+                                onclick=" selectP(this)">Seclect</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card w-full bg-base-100 shadow-xl">
+                    <figure class="">
+                        <img src="img/Kylian Mbappe.png" alt="zinedine-zidane" class=" h-80" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title text-3xl">zinedine zidane</h2>
+                        <p class=" text-xl"><span>307</span> <span>Goal</span> <span class="text-5xl">
+                                .</span> <span>393</span> <span>Assist</span>
+                        </p>
+                        <div class="card-actions">
+                            <button class="btn btn-primary px-24  text-xl"
+                                onclick=" selectP(this)">Seclect</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="card w-full bg-base-100 shadow-xl">
+                    <figure class="">
+                        <img src="img/Sergio Ramos.png" alt="Ronaldinho" class=" h-80" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title text-3xl">Ronaldinho</h2>
+                        <p class=" text-xl"><span>233</span> <span>Goal</span> <span class="text-5xl">
+                                .</span> <span>241</span> <span>Assist</span>
+                        </p>
+                        <div class="card-actions">
+                            <button class="btn btn-primary px-24  text-xl"
+                                onclick=" selectP(this)">Seclect</button>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div> 
     </div>
+     <!--hisab nikash er -->
+     <div class=" lg:w-1/4">
+        <div class="">
+            <!-- add name  -->
+            <div class="pt-2 px-2 mt-2 pb-32 mx-2  mb-20  bg-neutral-700  text-white">
+                <h1 class="font-extrabold text-center external-css-for-intro text-3xl p-5 mb-5">Selected
+                    - <span id="player-select">0</span></h1>
+                <table class="table w-full text-black">
+                    <thead">
+                        <tr>
+                            <th>No <span>.</span></th>
+                            <th>name</th>
+                        </tr>
+                        </thead>
+                        <!-- row 1 -->
+                        <tbody id="table">
+                            <!-- <tr>
+                                <th>1</th>
+                                <td>name</td>
+                            </tr> -->
+                        </tbody>
+                </table>
+            </div>
+        </div>
+        
+    </div>
 </div>
+
 </section>
-    </main>
+</main>
+
+        <!-- horizontal bar soho footer   -->
+        <footer>
+        <section>
+            <hr>
+                <div class="text-center m-10">
+                    <p>Copyright @ 2022 All Rights Reserved.</p>
+                </div>
+            </section>
+        </footer>
+ <!-- javaScript add  -->
+ <script src="js/select.js"></script>
+ <script src="js/budget.js"></script>
 </body>
 </html>
