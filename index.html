@@ -24,14 +24,14 @@
         <section>
             <!-- front header  -->
             <header>
-                <div class="hero min-h-screen" style="background-image: url(img/tea.jpg);">
+                <div class="hero min-h-screen" style="background-image: url(img/bacground.jpg);">
                     <div class="hero-overlay bg-opacity-60"></div>
                     <div class="hero-content  text-center text-cyan-400 ">
                         <div>
-                            <h1 class="mb-5 text-5xl md:text-9xl font-bold external-css-for-intro display">
+                            <h1 class="mb-5 text-white text-4xl md:text-8xl font-bold external-css-for-intro display">
                                 Best From The
-                                Best</h1>
-                            <p class="mb-5 md:text-2xl md:mx-44 xl:mx-64 text-sky-400 external-css-for-intro">If you
+                                 <span class="text-yellow-300"> Best five</span></h1>
+                            <p class="mb-5 md:text-2xl md:mx-44 xl:mx-64 text-blue-100 external-css-for-intro">If you
                                 already have a Steam,
                                 Epic or Xbox
                                 account, getting
@@ -45,7 +45,33 @@
     </header>
 
     <main>
-
+<!-- middler engine  -->
+<section class="mx-auto md:container my-36">
+<!-- players  -->
+<div class="lg:flex">
+    <div class=" lg:w-3/4">
+        <div class="">
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-9 m-2">
+                <div class="card w-full bg-base-100 shadow-xl rounded-none">
+                    <figure class="">
+                        <img src="img/messi.jpg" alt="Lionel-Messi" class=" h-80" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title text-3xl">Lionel Messi</h2>
+                        <p class=" text-xl"><span>360</span> <span>Goal</span> <span class="text-5xl">
+                                .</span> <span>346</span> <span>Assist</span>
+                        </p>
+                        <div class="card-actions">
+                            <button class=" btn btn-primary px-24  text-xl"
+                                onclick=" selectP(this)">Seclect</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </div>
+</div>
+</section>
     </main>
 </body>
 </html>
